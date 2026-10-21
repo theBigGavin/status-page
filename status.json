@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T13:10:12.539Z",
-  "overall": "operational",
+  "generated_at": "2026-10-21T18:03:27.520Z",
+  "overall": "degraded",
   "components": [
     {
       "id": "website",
@@ -10,8 +10,8 @@
       "url": "https://www.hermes.cc.cd/",
       "status": "operational",
       "uptime_90d": 100,
-      "latency_avg_ms": 2021,
-      "last_check": "2026-10-21T13:10:13.550Z",
+      "latency_avg_ms": 1856,
+      "last_check": "2026-10-21T18:03:28.892Z",
       "today_checks": [
         {
           "t": "2026-10-21T02:03:37.688Z",
@@ -30,6 +30,12 @@
           "ok": true,
           "latency_ms": 1006,
           "code": 200
+        },
+        {
+          "t": "2026-10-21T18:03:28.892Z",
+          "ok": true,
+          "latency_ms": 1361,
+          "code": 200
         }
       ],
       "data_days": 60
@@ -39,10 +45,10 @@
       "name": "OPC 透明办公室(API)",
       "name_en": "OPC Office (API)",
       "url": "https://opc.hermes.cc.cd/api/token-stats",
-      "status": "operational",
+      "status": "degraded",
       "uptime_90d": 96.67,
-      "latency_avg_ms": 1897,
-      "last_check": "2026-10-21T13:10:13.068Z",
+      "latency_avg_ms": 1718,
+      "last_check": "2026-10-21T18:03:28.793Z",
       "today_checks": [
         {
           "t": "2026-10-21T02:03:34.642Z",
@@ -61,6 +67,12 @@
           "ok": true,
           "latency_ms": 474,
           "code": 200
+        },
+        {
+          "t": "2026-10-21T18:03:28.793Z",
+          "ok": false,
+          "latency_ms": 1179,
+          "code": 530
         }
       ],
       "data_days": 60
@@ -70,10 +82,10 @@
       "name": "MRD 行情面板",
       "name_en": "MRD Dashboard",
       "url": "https://mrd.hermes.cc.cd/",
-      "status": "operational",
+      "status": "degraded",
       "uptime_90d": 98.33,
-      "latency_avg_ms": 2816,
-      "last_check": "2026-10-21T13:10:13.282Z",
+      "latency_avg_ms": 2440,
+      "last_check": "2026-10-21T18:03:28.924Z",
       "today_checks": [
         {
           "t": "2026-10-21T02:03:37.881Z",
@@ -92,6 +104,12 @@
           "ok": true,
           "latency_ms": 687,
           "code": 200
+        },
+        {
+          "t": "2026-10-21T18:03:28.924Z",
+          "ok": false,
+          "latency_ms": 1309,
+          "code": 530
         }
       ],
       "data_days": 60
@@ -103,8 +121,8 @@
       "url": "https://www.hermes.cc.cd/blog/",
       "status": "operational",
       "uptime_90d": 100,
-      "latency_avg_ms": 1917,
-      "last_check": "2026-10-21T13:10:13.546Z",
+      "latency_avg_ms": 1788,
+      "last_check": "2026-10-21T18:03:29.020Z",
       "today_checks": [
         {
           "t": "2026-10-21T02:03:37.716Z",
@@ -123,6 +141,12 @@
           "ok": true,
           "latency_ms": 949,
           "code": 200
+        },
+        {
+          "t": "2026-10-21T18:03:29.020Z",
+          "ok": true,
+          "latency_ms": 1403,
+          "code": 200
         }
       ],
       "data_days": 60
@@ -132,10 +156,10 @@
       "name": "API 网关(cloudflared 隧道)",
       "name_en": "API Gateway (Tunnel)",
       "url": "https://api.hermes.cc.cd/",
-      "status": "operational",
+      "status": "degraded",
       "uptime_90d": 95,
-      "latency_avg_ms": 4241,
-      "last_check": "2026-10-21T13:10:13.846Z",
+      "latency_avg_ms": 3709,
+      "last_check": "2026-10-21T18:03:29.731Z",
       "today_checks": [
         {
           "t": "2026-10-21T02:03:41.620Z",
@@ -154,6 +178,12 @@
           "ok": true,
           "latency_ms": 1249,
           "code": 404
+        },
+        {
+          "t": "2026-10-21T18:03:29.731Z",
+          "ok": false,
+          "latency_ms": 2113,
+          "code": 530
         }
       ],
       "data_days": 60
@@ -575,10 +605,10 @@
     },
     "2026-10-21": {
       "website": "operational",
-      "opc": "operational",
-      "mrd": "operational",
+      "opc": "degraded",
+      "mrd": "degraded",
       "blog": "operational",
-      "api": "operational"
+      "api": "degraded"
     }
   },
   "incidents": []
