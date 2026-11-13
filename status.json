@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T22:28:15.935Z",
+  "generated_at": "2026-11-13T02:51:11.349Z",
   "overall": "operational",
   "components": [
     {
@@ -10,35 +10,17 @@
       "url": "https://www.hermes.cc.cd/",
       "status": "operational",
       "uptime_90d": 100,
-      "latency_avg_ms": 831,
-      "last_check": "2026-11-12T22:28:18.027Z",
+      "latency_avg_ms": 362,
+      "last_check": "2026-11-13T02:51:11.716Z",
       "today_checks": [
         {
-          "t": "2026-11-12T00:57:50.922Z",
+          "t": "2026-11-13T02:51:11.716Z",
           "ok": true,
-          "latency_ms": 680,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T08:10:09.473Z",
-          "ok": true,
-          "latency_ms": 330,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T16:48:56.025Z",
-          "ok": true,
-          "latency_ms": 323,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T22:28:18.027Z",
-          "ok": true,
-          "latency_ms": 1991,
+          "latency_ms": 362,
           "code": 200
         }
       ],
-      "data_days": 82
+      "data_days": 83
     },
     {
       "id": "opc",
@@ -46,36 +28,18 @@
       "name_en": "OPC Office (API)",
       "url": "https://opc.hermes.cc.cd/api/token-stats",
       "status": "operational",
-      "uptime_90d": 97.56,
-      "latency_avg_ms": 715,
-      "last_check": "2026-11-12T22:28:17.487Z",
+      "uptime_90d": 97.59,
+      "latency_avg_ms": 587,
+      "last_check": "2026-11-13T02:51:12.002Z",
       "today_checks": [
         {
-          "t": "2026-11-12T00:57:51.293Z",
+          "t": "2026-11-13T02:51:12.002Z",
           "ok": true,
-          "latency_ms": 671,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T08:10:09.788Z",
-          "ok": true,
-          "latency_ms": 594,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T16:48:56.451Z",
-          "ok": true,
-          "latency_ms": 671,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T22:28:17.487Z",
-          "ok": true,
-          "latency_ms": 922,
+          "latency_ms": 587,
           "code": 200
         }
       ],
-      "data_days": 82
+      "data_days": 83
     },
     {
       "id": "mrd",
@@ -83,36 +47,18 @@
       "name_en": "MRD Dashboard",
       "url": "https://mrd.hermes.cc.cd/",
       "status": "operational",
-      "uptime_90d": 98.78,
-      "latency_avg_ms": 938,
-      "last_check": "2026-11-12T22:28:18.029Z",
+      "uptime_90d": 98.8,
+      "latency_avg_ms": 757,
+      "last_check": "2026-11-13T02:51:12.173Z",
       "today_checks": [
         {
-          "t": "2026-11-12T00:57:51.408Z",
+          "t": "2026-11-13T02:51:12.173Z",
           "ok": true,
-          "latency_ms": 784,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T08:10:10.033Z",
-          "ok": true,
-          "latency_ms": 837,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T16:48:56.448Z",
-          "ok": true,
-          "latency_ms": 667,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T22:28:18.029Z",
-          "ok": true,
-          "latency_ms": 1463,
+          "latency_ms": 757,
           "code": 200
         }
       ],
-      "data_days": 82
+      "data_days": 83
     },
     {
       "id": "blog",
@@ -121,35 +67,17 @@
       "url": "https://www.hermes.cc.cd/blog/",
       "status": "operational",
       "uptime_90d": 100,
-      "latency_avg_ms": 623,
-      "last_check": "2026-11-12T22:28:18.024Z",
+      "latency_avg_ms": 302,
+      "last_check": "2026-11-13T02:51:11.719Z",
       "today_checks": [
         {
-          "t": "2026-11-12T00:57:51.010Z",
+          "t": "2026-11-13T02:51:11.719Z",
           "ok": true,
-          "latency_ms": 383,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T08:10:09.475Z",
-          "ok": true,
-          "latency_ms": 278,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T16:48:56.156Z",
-          "ok": true,
-          "latency_ms": 374,
-          "code": 200
-        },
-        {
-          "t": "2026-11-12T22:28:18.024Z",
-          "ok": true,
-          "latency_ms": 1456,
+          "latency_ms": 302,
           "code": 200
         }
       ],
-      "data_days": 82
+      "data_days": 83
     },
     {
       "id": "api",
@@ -157,36 +85,18 @@
       "name_en": "API Gateway (Tunnel)",
       "url": "https://api.hermes.cc.cd/",
       "status": "operational",
-      "uptime_90d": 95.12,
-      "latency_avg_ms": 1264,
-      "last_check": "2026-11-12T22:28:18.137Z",
+      "uptime_90d": 95.18,
+      "latency_avg_ms": 567,
+      "last_check": "2026-11-13T02:51:11.985Z",
       "today_checks": [
         {
-          "t": "2026-11-12T00:57:52.114Z",
+          "t": "2026-11-13T02:51:11.985Z",
           "ok": true,
-          "latency_ms": 1487,
-          "code": 404
-        },
-        {
-          "t": "2026-11-12T08:10:10.517Z",
-          "ok": true,
-          "latency_ms": 1320,
-          "code": 404
-        },
-        {
-          "t": "2026-11-12T16:48:56.465Z",
-          "ok": true,
-          "latency_ms": 682,
-          "code": 404
-        },
-        {
-          "t": "2026-11-12T22:28:18.137Z",
-          "ok": true,
-          "latency_ms": 1568,
+          "latency_ms": 567,
           "code": 404
         }
       ],
-      "data_days": 82
+      "data_days": 83
     }
   ],
   "history_90d": {
@@ -758,6 +668,13 @@
       "api": "operational"
     },
     "2026-11-12": {
+      "website": "operational",
+      "opc": "operational",
+      "mrd": "operational",
+      "blog": "operational",
+      "api": "operational"
+    },
+    "2026-11-13": {
       "website": "operational",
       "opc": "operational",
       "mrd": "operational",
